@@ -1,0 +1,46 @@
+
+.main{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+input{
+    width: 250px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 13px;
+    color: white;
+}
+
+button:hover{
+    background-color: rgb(67, 67, 250);
+    opacity: 0.6;
+    transition: 0.3s;
+}
+.navbar{
+ width: 900px;
+  height: 400px;
+  padding: 15px;
+  background-color:rgb(168, 167, 167);
+ box-shadow: 10px 10px 162px 15px ;
+  
+}
+ .show_name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+  .name{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-decoration: underline;
+  }
+  
